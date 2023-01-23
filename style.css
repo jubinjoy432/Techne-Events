@@ -207,7 +207,7 @@ svg text{
     margin: 0 auto;
     text-align: center;
     overflow-y: hidden;
-    width:100%;
+    width:100% !important;
   }
   
   h1 {

@@ -172,7 +172,7 @@ svg text{
     position: fixed;
     overflow-x: hidden;
     width: 100%; 
-    height: 100%;
+    height: 105%;
     object-fit: cover;
     display: block;
     z-index: -2;

@@ -422,7 +422,7 @@ svg text{
   position: relative;
   overflow: hidden;
   z-index: 1;
-  left:62px;
+  left:54px;
 }
 
 .portfolio .portfolio-wrap::before {

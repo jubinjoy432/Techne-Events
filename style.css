@@ -112,7 +112,7 @@ a {
 
   .hamburger .active .bar:nth-child(2) {
       opacity: 0;
-  }
+  }important
 
   .hamburger .active .bar:nth-child(1) {
       -webkit-transform: translateY(8px) rotate(45deg);
@@ -688,4 +688,8 @@ font-size: 18px;
   {
     margin-left: 3rem;
   }
+  .address
+    {
+     padding-left: 1.81rem !important;
+    }
 }

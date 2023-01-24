@@ -105,7 +105,7 @@ a {
   }
 
   .active {
-      left: -50px;
+      left: -37px;
       background-color: #191919;
   }
 
@@ -347,7 +347,11 @@ font-weight: 700;
     }
     .contact-card
     {
-      width:90%;
+      width:100% !important;
+    }
+    .address
+    {
+     padding-left: 1.81rem !important;
     }
 
 }
@@ -431,7 +435,7 @@ width:100%;
     left:104px;
     bottom: 70px;
     color:white;
-    width:12rem;
+    width:10rem;
   }
   
   .p1

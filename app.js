@@ -11,7 +11,7 @@
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "01/31/",//change date/month for change in timer or countdown
+        dayMonth = "02/09/",//change date/month for change in timer or countdown
         birthday = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;

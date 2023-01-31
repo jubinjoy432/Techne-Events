@@ -164,6 +164,17 @@ color: white;
     border-bottom:1px solid ;
     border-color: #cdcdcd;
     margin-top: 1px;;
+    display: flex;
+    flex-direction: row;
+    height:20%;
+    flex-wrap: wrap;
+}
+
+.Title>img
+{
+  height: 4rem;
+  margin-top: 40px;
+  padding-left: 1rem;
 }
 h1
 {
@@ -352,6 +363,11 @@ font-weight: 700;
     .address
     {
      padding-left: 1.81rem !important;
+    }
+    .Title>img
+    {
+      padding-left: 0rem;
+      margin-top: 0;
     }
 
 }

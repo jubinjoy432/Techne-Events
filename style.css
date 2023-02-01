@@ -135,6 +135,14 @@ a {
   {
     background-size: 30%;
   }
+svg
+{
+  margin-top: 7rem;
+}
+svg text
+{
+font-size: 20rem !important;
+}
 }
 
 

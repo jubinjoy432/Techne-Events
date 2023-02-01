@@ -17,7 +17,15 @@ body{
 body::-webkit-scrollbar{
   display: none;
 }
-
+#preloader
+{
+  background: #000 url("loader.gif") no-repeat center center;
+  background-size: 15%;
+  height:100vh;
+  width:100%;
+  position: fixed;
+  z-index: 100;
+}
 /* ----------TOP NAVIATION BAR---------- */
 
 li {

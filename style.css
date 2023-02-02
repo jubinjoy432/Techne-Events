@@ -107,6 +107,7 @@ a {
   .active {
       left: 0;
       background-color: #191919;
+      z-index:1;
   }
 
   .nav-item {

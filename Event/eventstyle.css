@@ -107,6 +107,7 @@ a {
   .active {
       left: -37px;
       background-color: #191919;
+      z-index:1;
   }
 
   .nav-item {

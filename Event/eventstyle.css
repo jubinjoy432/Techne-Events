@@ -22,15 +22,14 @@ body {
     background-color: black;
 }
 /* ---------------------header------------------------ */
-.logo
+.nav-logo
 {
-    width:26.25rem;
-    height: auto;
+  width:30%;
+  margin-left: 1rem;
 }
-.clogo
+.main-logo
 {
-    width:7.5rem;
-    height: auto;
+width:100%;
 }
 .nav-menu>li {
   list-style: none;
@@ -67,6 +66,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 53%;
 }
 
 .nav-item {

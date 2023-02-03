@@ -22,15 +22,14 @@ body {
     background-color: black;
 }
 /* ---------------------header------------------------ */
-.logo
+.nav-logo
 {
-    width:26.25rem;
-    height: auto;
+  width:30%;
+  margin-left: 1rem;
 }
-.clogo
+.main-logo
 {
-    width:7.5rem;
-    height: auto;
+width:100%;
 }
 .nav-menu>li {
   list-style: none;
@@ -67,6 +66,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 53%;
 }
 
 .nav-item {
@@ -336,16 +336,10 @@ font-weight: 700;
 }
 @media only screen and (max-width:695px)
 {
-    .logo
-    {
-        width:70%;
-        height: auto;
-    }
-    .clogo
-    {
-        width:15%;
-        height: auto;
-    } 
+  .nav-logo 
+  {
+    width: 76%;
+  }
     #event-img
 {
     width: 100%;

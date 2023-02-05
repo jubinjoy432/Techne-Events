@@ -331,6 +331,7 @@ svg text{
 {
   font-size:19px;
   color: white;
+
 }
 .section-title
 {
@@ -677,6 +678,7 @@ a{
   font-family:Space Grotesk ;
   padding-top: 3rem;
   padding-left: 2rem;
+  padding-right:2rem;
 }
 .vision>h1
 {

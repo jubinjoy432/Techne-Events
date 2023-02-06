@@ -478,6 +478,10 @@ width: 90%;
   margin-left: 2.2rem;
   padding-bottom: 1rem;
 }
+.pass-desc>h5
+{
+  font-size:23px;
+}
 }
 /*---------------------------------------------------------------*/
 

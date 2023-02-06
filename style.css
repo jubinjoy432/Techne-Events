@@ -413,6 +413,7 @@ svg text{
   background-color: #1d1d1d;
   display: flex;
   flex-direction: row;
+  border-radius: 8px;
 
 }
 .pass-img
@@ -480,7 +481,7 @@ width: 90%;
 }
 .pass-desc>h5
 {
-  font-size:23px;
+  font-size:21px;
 }
 }
 /*---------------------------------------------------------------*/

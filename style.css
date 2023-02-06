@@ -120,6 +120,7 @@ width:100%;
   .hamburger {
       display: block;
       cursor: pointer;
+      margin-right: 12px;
   }
 
   .hamburger .active .bar:nth-child(2) {
@@ -447,6 +448,7 @@ svg text{
   overflow-y: hidden;
   color:rgb(151,206,243);
   font-weight: bold;
+  font-size: 20px;
   
 }
 .pass-desc>h5:hover

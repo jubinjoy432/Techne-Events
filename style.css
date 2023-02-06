@@ -404,9 +404,82 @@ svg text{
     width:70%;
   }
 
+/*-----------------------Techne Pass-----------------------------*/
 
+.pass
+{
+ height:13rem;
+  width:95%;
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: row;
 
+}
+.pass-img
+{
+  width:20%;
+  height:100%;
+}
+.pass-desc
+{
+  width:80%;
+  height:100%;
+  color:white;
+  flex-direction: column;
+  text-align: left;
 
+}
+.pass-img>img
+{
+  width:50%;
+  margin-top: 2rem;
+}
+.pass-desc>h3
+{
+  overflow-y: hidden;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.pass-desc>h5
+{
+  overflow-y: hidden;
+  color:rgb(151,206,243);
+  font-weight: bold;
+  
+}
+.pass-desc>h5:hover
+{
+color:rgb(85, 132, 163);
+}
+.pass-desc>h5>a
+{
+  text-decoration: none;
+}
+@media only screen and (max-width:650px)
+{
+.pass
+{
+flex-direction: column;
+height:auto;
+width: 90%;
+}
+.pass-img
+{
+  width: 100%;
+}
+.pass-img>img
+{
+  width: 50%;
+}
+.pass-desc
+{
+  text-align: center;
+  margin-left: 2.2rem;
+  padding-bottom: 1rem;
+}
+}
+/*---------------------------------------------------------------*/
 
 
   /* # Portfolio */
